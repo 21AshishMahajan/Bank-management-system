@@ -1,0 +1,15 @@
+
+Name : Ashish Mahajan
+Account no. : 21112004
+
+Rs50000 had been deposited to your account 
+Date/Time of transaction :  Sun Jul 16 15:56:03 2024
+
+
+Rs2000 had been withdrawn from your account 
+Date/Time of transaction :  Sun Jul 16 15:56:16 2024
+
+
+Rs5000 had been transferred from your account to 12
+Date/Time of transaction :  Sun Jul 16 15:56:22 2024
+
