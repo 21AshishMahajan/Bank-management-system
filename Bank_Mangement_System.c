@@ -1,11 +1,9 @@
-// Bank Management System
-
-#include <stdio.h>  //printf(),scanf()
-#include <stdlib.h> //exit(0),system()
-#include <conio.h>  //getch()
-#include <time.h>   //time(),ctime()
+#include <stdio.h>  
+#include <stdlib.h> 
+#include <conio.h>  
+#include <time.h>  
 char name[20];
-int dip_amt, amt = 10000, acc_no, ac, count = 0; // Global variables
+int dip_amt, amt = 10000, acc_no, ac, count = 0; 
 int trans_amt;
 int with_amt;
 
@@ -25,7 +23,7 @@ void divider()
     }
 }
 
-//#Driver function
+
 int main()
 {
     FILE *ptr = fopen("Account.txt", "w");
@@ -99,7 +97,7 @@ void menu()
     divider();
 }
 
-//!---------------------------------------------------------
+
 void deposit_money()
 {
 
@@ -126,7 +124,6 @@ void deposit_money()
     getch();
 }
 
-//!---------------------------------------------------------
 
 void withdraw_money()
 {
@@ -162,7 +159,7 @@ void withdraw_money()
     getch();
 }
 
-//!---------------------------------------------------------
+
 
 void transfer_money()
 {
@@ -199,7 +196,6 @@ void transfer_money()
     getch();
 }
 
-//!---------------------------------------------------------
 
 void checkDetail()
 {
@@ -217,7 +213,6 @@ void checkDetail()
     getch();
 }
 
-//!---------------------------------------------------------
 
 void transaction_details()
 {
@@ -248,7 +243,7 @@ void transaction_details()
     getch();
 }
 
-//!---------------------------------------------------------
+
 
 void LastDetail()
 {
